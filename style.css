@@ -1,0 +1,103 @@
+body {
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #0f172a;
+    color: #e4a8ed;
+}
+
+#header {
+    margin: 20px;
+}
+
+#demo {
+    min-height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 15px;
+    gap: 20px;
+    border: 2px solid #f8fafc;
+    color: #e4a8ed;
+    background-color: #1e293b;
+}
+
+#inputText textarea {
+    color: #e4a8ed;
+    background-color: #0f172a;
+    border: 2px solid #334155;
+    margin: 20px;
+    max-width: 800px;
+    min-width: 400px;
+    min-height: 100px;
+    max-height: 400px;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: -4px 4px 8px rgba(0, 0, 0, 0.99);
+}
+
+#extractButton {
+    border: 2px solid #0f172a;
+    min-width: 100px;
+    height: 25px;
+    color: #0f172a;
+    background-color: #e4a8ed;
+    border-radius: 15px;
+    margin: 20px;
+    box-shadow: -4px 4px 8px rgba(0, 0, 0, 0.99);
+    cursor: pointer;
+    transition: 0.2s ease, color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#extractButton:hover {
+    background-color: #f3d5f7;
+    color: #0f172a;
+    transform: translateY(-2px);
+    box-shadow: -6px 6px 14px rgba(0, 0, 0, 0.99);
+}
+
+#extractButton:active {
+    transform: translateY(1px);
+    box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.99);
+}
+
+#extractButton:focus-visible {
+    outline: 2px solid #e4a8ed;
+    outline-offset: 3px;
+}
+
+#output {
+    margin: 20px;
+}
+
+#output h3 {
+    margin-top: 20px;
+}
+
+#tagsBox,
+#foodsBox,
+#drinksBox {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.tag-badge {
+    background-color: #e4a8ed;
+    color: #0f172a;
+    padding: 4px 12px;
+    border-radius: 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.item-badge {
+    background-color: #0f172a;
+    color: #e4a8ed;
+    border: 1px solid #e4a8ed;
+    padding: 4px 12px;
+    border-radius: 15px;
+    font-size: 14px;
+}
