@@ -14,7 +14,7 @@ tags_dict = {
  'fp': 'food packaging'}
 
 # مسار مجلد الموديل المحلي (نزل ملفات الموديل يدوياً وحطها بهذا المجلد)
-model_path = r"C:\\Users\\ALAMEEN\\PythonWork\\finetuning\\model"
+model_path = r"the model folder path"
 
 # تحميل الموديل مرة وحدة عند تشغيل السيرفر - من المجلد المحلي، بدون إنترنت
 pipe = pipeline("text-generation", model=model_path)
