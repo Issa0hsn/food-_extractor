@@ -6,7 +6,7 @@ this project extract food items from text and do some classification using a fin
 * **Model:** we use a SLM ( gemma-3-270m-it) and fine tuned it using a dataset of ~1400 samples ("mrdbourke/FoodExtract-1k") for the extraction task.
 * **Model link:** [Hugging Face Model Repository](https://huggingface.co/isahsn/FoodExtract-gemma-3-270m-fine-tune-v1)
 * **Backend:** local API server hosting the model and handle the request using FASTAPI .
-* **Frontend:** we used a simple html,css,js code for the interface.
+* **Frontend:** we used a simple HTML , CSS , JS code for the interface.
 
 ## learning journey 
 
@@ -19,7 +19,8 @@ this project taught me a little bit of how backend program and the frontend inte
 knowing how to connect files with each others moves the challenge to the next level.
 
 ## how to run it 
-First,clone this repo and download requirements
+First ,download the model's files from the link and but them on one folder.
+Second ,clone this repo and download requirements.
 ```bash
 git clone [https://github.com/isahsn/food-_extractor.git](https://github.com/isahsn/food-_extractor.git)
 cd food-_extractor
