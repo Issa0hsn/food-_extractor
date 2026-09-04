@@ -28,4 +28,4 @@ pip install -r requirements.txt
 ```
 then run the "main.py" file after filling the paths
 finally open "index.html" on your browser and use the website.
-[App Screenshot](finetuning\Screenshot 2026-09-04 143241.png)
+[finetuning\Screenshot 2026-09-04 143241.png]
