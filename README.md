@@ -29,4 +29,4 @@ pip install -r requirements.txt
 then run the "main.py" file after filling the paths
 finally open "index.html" on your browser and use the website.
 
-[PHOTO](photo.png)
+[photo.png]
